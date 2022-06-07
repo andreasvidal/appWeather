@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+body,
+html {
+    background: url(./assets/backgrounsky.jpg) no-repeat;
+    background-size: cover;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+:root {
+    --colorFont: #f6f6f6;
+    --placeholder: #464343;
+    --backgroundBtn: #0a67ca;
+}
+
+h1 {
+    color: var(--colorFont);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.9px);
+    -webkit-backdrop-filter: blur(5.9px);
+}
+
+.flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+input[type="text"] {
+    color: var(--placeholder);
+    align-items: flex-start;
+    margin: 2.5rem 0 1rem 1.5rem;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 0.7rem;
+}
+
+input[type="text"]::placeholder {
+    color: var(--placeholder);
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    border: none;
+    border-radius: 1.5rem;
+    padding: 0.5rem;
+    background: var(--backgroundBtn);
+    color: var(--colorFont);
+    width: 5rem;
+    margin: 1.5rem 0 0 0.7rem;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+
+/*display*/
+
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #464343;
+    margin: 0 40%;
+    padding: 0.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.9px);
+    -webkit-backdrop-filter: blur(5.9px);
+    border-radius: 1.5rem 1.5rem 0 0;
+    color: var(--colorFont);
+}
+
+.wrapper {
+    margin: 0 40%;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <h1>Check you local weather here!</h1>
+        <section class="flex">
+            <input type="text" placeholder="Enter any city" id="cityInput" />
+            <input type="submit" value="submit" id="submitInput" />
+            <button placeholder="submit" id="add"></button>
+        </section>
+        <section class="display">
+            <div class="wrapper">
+                <i class='bx bx-sun'></i>
+                <h2 id="cityoutput"></h2>
+                <p id="description"></p>
+                <p id="temp"></p>
+                <p id="wind"></p>
+            </div>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>
